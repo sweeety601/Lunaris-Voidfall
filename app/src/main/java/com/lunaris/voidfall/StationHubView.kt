@@ -107,11 +107,11 @@ class StationHubView(context: Context) : View(context) {
         }
 
         p.color=Color.rgb(20,43,57)
-        c.drawRect(0,h*.955f,w,h,p)
+        c.drawRect(0f,h*.955f,w,h,p)
         t.textAlign=Paint.Align.LEFT
         t.textSize=w*.018f
         t.color=Color.rgb(110,155,170)
-        c.drawText("LUNARIS // СИСТЕМЫ ОНЛАЙН",18,h*.982f,t)
+        c.drawText("LUNARIS // СИСТЕМЫ ОНЛАЙН",18f,h*.982f,t)
         t.textAlign=Paint.Align.RIGHT
         c.drawText("СИНДИКАТ: 0   •   ЭНЕРГИЯ: 100%",w-18,h*.982f,t)
     }
