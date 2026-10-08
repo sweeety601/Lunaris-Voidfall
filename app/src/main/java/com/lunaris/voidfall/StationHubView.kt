@@ -1,7 +1,9 @@
 package com.lunaris.voidfall
 import android.content.Context
 import android.graphics.*
-import android.opengl.*
+import android.opengl.GLES20
+import android.opengl.GLSurfaceView
+import android.opengl.Matrix
 import android.view.*
 import android.widget.FrameLayout
 import java.io.ByteArrayInputStream
